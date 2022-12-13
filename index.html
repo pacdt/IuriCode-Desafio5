@@ -11,35 +11,48 @@
 		<main>
 			<header>
 				<section>
-					<img src="./assets/svg/logo.svg" alt="studio logo" />
+					<img id="logoIcon" src="./assets/svg/logo.svg" alt="studio logo" />
 				</section>
 				<article id="social">
 					<div>
-						<img src="./assets/svg/facebook.svg" alt="facebook" />
-						<img src="./assets/svg/instagram.svg" alt="instagram" />
-						<img src="./assets/svg/twitter.svg" alt="twitter" />
-						<img src="./assets/svg/youtube.svg" alt="youtube" />
+						<img class="socialIcon" src="./assets/svg/facebook.svg" alt="facebook" />
+						<img class="socialIcon" src="./assets/svg/instagram.svg" alt="instagram" />
+						<img class="socialIcon" src="./assets/svg/twitter.svg" alt="twitter" />
+						<img class="socialIcon" src="./assets/svg/youtube.svg" alt="youtube" />
 					</div>
 				</article>
 			</header>
-			<section id="container">
-				<div id="img">
-					<img
-						src="./assets/svg/ghosts.svg"
-						alt="ghosts"
-						width="300px" />
-				</div>
-				<div id="title">
-					<h2>Hayao Miyazaki</h2>
-					<h1>A viagem de chihiro</h1>
-					<p>
-						Chihiro chega a um mundo mágico dominado por uma bruxa.
-						Aqueles que a desobedecem são transformados em animais.
-					</p>
-				</div>
-			</section>
-            
-            <button><img src="./assets/svg/play.svg" alt="play">Assistir agora</button>
+			<div id="corpo">
+
+				<section id="container">
+
+					<div id="img">
+						<img id="ghosts"
+							src="./assets/svg/ghosts.png"
+							alt="ghosts"/>
+					</div>
+
+					<div id="title">
+						<h2>Hayao Miyazaki</h2>
+						<h1>A viagem de chihiro</h1>
+						<p>
+							Chihiro chega a um mundo mágico dominado por uma
+							bruxa. Aqueles que a desobedecem são transformados
+							em animais.
+						</p>
+                        <div id="btns">
+						<button id="watch">
+							<img
+								src="./assets/svg/play.svg"
+								alt="play" />Assistir agora
+						</button>
+                        <button id="trailer"></button>
+                        </div>
+					</div>
+
+				</section>
+
+			</div>
 		</main>
 	</body>
 </html>
